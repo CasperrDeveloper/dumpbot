@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    //if (message.channel.name === 'bc') {
+    if (message.guild.name === "Asta's Accounts") {
     	console.log(message.content);
-  	//}
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
